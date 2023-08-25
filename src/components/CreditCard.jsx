@@ -10,6 +10,7 @@ export const useCreditContext = () => {
 
 const CreditCard = () => {
   const [data, setData] = useState({
+    submitted: false,
     name: "",
     cardNumber: "",
     month: "",
@@ -27,7 +28,7 @@ const CreditCard = () => {
 
   return (
     <CreditContext.Provider value={{ data, setData, error, setError }}>
-      <main className=" font-creditCard text-base tracking-wide md:flex items-center h-screen w-full">
+      <main className=" font-creditCard text-base tracking-wide md:flex items-center h-screen w-full max-w-screen-2xl 2xl:mx-auto">
         <CardDisplay />
         <CardInputs />
       </main>
