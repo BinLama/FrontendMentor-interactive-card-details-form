@@ -2,12 +2,6 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {
-      backgroundImage: {
-        "mobile-bg": 'url("../src/assets/images/bg-main-mobile.png")',
-        "desktop-bg": "url('../src/assets/images/bg-main-desktop.png')",
-      },
-    },
     fontFamily: {
       creditCard: ['"Space Grotesk"', "sans-serif"],
     },
