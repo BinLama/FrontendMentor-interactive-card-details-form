@@ -93,7 +93,6 @@ const CreditForms = () => {
             handleOnChange("cardNumber", e.target.value);
           }}
           value={data.cardNumber}
-          max={19}
         />
         {error.isError && (
           <div className="text-xs text-red-500 mt-1">{error.cardNumber}</div>
