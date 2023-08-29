@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "mobile-bg": "url('./src/assets/images/bg-main-mobile.png')",
-        "desktop-bg": "url('./src/assets/images/bg-main-desktop.png')",
+        "mobile-bg": 'url("../src/assets/images/bg-main-mobile.png")',
+        "desktop-bg": "url('../src/assets/images/bg-main-desktop.png')",
       },
     },
     fontFamily: {
