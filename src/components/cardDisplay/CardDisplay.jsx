@@ -18,7 +18,7 @@ const CardDisplay = () => {
   return (
     <section className="flex-1">
       <h1 className="hidden">Credit Card Display</h1>
-      <div className="mb-20 relative bg-[url('../../assets/images/bg-main-mobile.png')] text-white h-60 md:h-screen md:bg-[url('../../assets/images/bg-main-desktop.png')] md:mb-0 md:w-4/5 md:bg-repeat-y">
+      <div className="mb-20 relative bg-[url('../bg-main-mobile.png')] text-white h-60 md:h-screen md:bg-[url('../bg-main-desktop.png')] md:mb-0 md:w-4/5 md:bg-repeat-y">
         {/* data presentation */}
         <div className="absolute w-72 right-7 top-10 top-custom md:-right-1/4 lg:w-96 ">
           <div className="relative">
